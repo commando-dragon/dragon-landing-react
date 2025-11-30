@@ -1,8 +1,10 @@
+import HeroSection from "./components/HeroSection/HeroSection";
+
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen">
-      <h1 className="text-4xl text-purple-500 font-bold">Dragon App</h1>
-    </div>
+    <>
+      <HeroSection />
+    </>
   );
 }
 

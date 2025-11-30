@@ -1,1 +1,33 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #f3f2ff;
+  --color-primary-100: #e3e0ff;
+  --color-primary-200: #c7c2ff;
+  --color-primary-300: #a59aff;
+  --color-primary-400: #8370ff;
+  --color-primary-500: #5537ea;
+  --color-primary-600: #472dc4;
+  --color-primary-700: #39239e;
+  --color-primary-800: #2b1a78;
+  --color-primary-900: #1e1253;
+}
+
+@font-face {
+  font-family: "mainFont";
+  src: url("/fonts/Peyda-Medium.ttf");
+}
+
+@font-face {
+  font-family: "boldFont";
+  src: url("/fonts/Peyda-Bold.ttf");
+}
+
+body {
+  font-family: "mainFont";
+  background-color: white;
+}
+
+h1 {
+  font-family: "boldFont";
+}
