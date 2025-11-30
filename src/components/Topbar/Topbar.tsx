@@ -3,7 +3,7 @@ import { RiShoppingCartLine } from "react-icons/ri";
 
 const Topbar = () => {
   return (
-    <div className="bg-white p-2 rounded-xl fixed top-5 left-32 right-32 z-50">
+    <div className="bg-white shadow p-2 rounded-xl fixed top-5 left-32 right-32 z-999">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-8">
           <h1>LOGO</h1>
