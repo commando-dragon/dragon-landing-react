@@ -17,7 +17,7 @@ const HeroSection = () => {
       {/* Background */}
       <div className="w-full h-full flex absolute top-0 left-0 -z-10">
         {columns}
-        <div className="absolute top-0 right-0 left-0 w-full h-3/4 rounded-b-full -z-10 bg-primary-500 blur-[80px] opacity-100"></div>
+        <div className="absolute top-0 right-0 left-0 w-full h-3/4 rounded-b-full -z-10 blur-[80px] opacity-100 bg-linear-to-b from-primary-500 to-primary-300"></div>
       </div>
 
       {/* Content */}
