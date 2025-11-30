@@ -31,3 +31,7 @@ body {
 h1 {
   font-family: "boldFont";
 }
+
+button {
+  outline: none !important;
+}
