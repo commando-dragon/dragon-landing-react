@@ -1,3 +1,4 @@
+import Ads from "./components/Ads/Ads";
 import HeroSection from "./components/HeroSection/HeroSection";
 import SearchBox from "./components/SearchBox/SearchBox";
 import Services from "./components/Services/Services";
@@ -8,6 +9,7 @@ function App() {
       <HeroSection />
       <SearchBox />
       <Services />
+      <Ads />
 
       <br />
       <br />
