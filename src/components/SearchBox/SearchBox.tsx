@@ -3,7 +3,7 @@ import { FaArrowDownLong } from "react-icons/fa6";
 
 const SearchBox = () => {
   return (
-    <section className="flex items-center justify-center my-12">
+    <section className="container mx-auto px-4 flex items-center justify-center my-12">
       <div className="p-8 bg-primary-500 w-4/5 rounded-3xl relative">
         <div className="flex items-center gap-2">
           <label
