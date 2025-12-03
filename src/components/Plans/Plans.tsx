@@ -152,7 +152,7 @@ const Plans = () => {
                 type="button"
                 className="py-2 px-4 text-lg text-primary-500 border border-primary-500 rounded-xl cursor-pointer hover:bg-primary-100 transition"
               >
-                سفارش مشاوره
+                سفارش و مشاوره
               </button>
             </div>
           </div>
