@@ -23,7 +23,7 @@ const Contact = () => {
       {/* Contact Form */}
       <div className="mt-8 relative">
         <div className="bg-primary-700 p-4 rounded-3xl w-2xl">
-          <form className="flex items-center justify-between flex-wrap gap-4">
+          <form className="grid grid-cols-3 gap-4">
             <label className="flex flex-col gap-1 text-white">
               نام
               <input
