@@ -2,6 +2,7 @@ import { BsStars } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
 import { GrMicrophone } from "react-icons/gr";
 import { RxUpload } from "react-icons/rx";
+import Logo from "../Logo/Logo";
 
 const Contact = () => {
   return (
@@ -9,13 +10,15 @@ const Contact = () => {
       {/* Contact Banner */}
       <div className="p-8 bg-primary-500 rounded-2xl overflow-hidden relative">
         <div className="flex items-center gap-4">
-          <span className="text-xl font-bold text-white">LOGO</span>
+          <div>
+            <Logo color="#fff" />
+          </div>
           <h3 className="text-3xl font-bold text-white">
             ارتباط با کارشناسان ومشاوره رایگان از سایت کماندو دراگون
           </h3>
           <div className="relative">
-            <div className="w-46 h-3 bg-white -rotate-45 absolute top-0 -left-40"></div>
-            <div className="w-46 h-3 bg-[#FF04DE] -rotate-45 absolute top-0 -left-54"></div>
+            <div className="w-52 h-3 bg-white -rotate-45 absolute top-0 -left-40"></div>
+            <div className="w-52 h-3 bg-[#FF04DE] -rotate-45 absolute top-0 -left-54"></div>
           </div>
         </div>
       </div>
