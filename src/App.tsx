@@ -1,4 +1,5 @@
 import Ads from "./components/Ads/Ads";
+import BlogNews from "./components/BlogNews/BlogNews";
 import Contact from "./components/Contact/Contact";
 import CustomersComment from "./components/CustomersComment/CustomersComment";
 import HeroSection from "./components/HeroSection/HeroSection";
@@ -16,6 +17,7 @@ function App() {
       <Plans />
       <Contact />
       <CustomersComment />
+      <BlogNews />
 
       <br />
       <br />
