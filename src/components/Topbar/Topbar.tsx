@@ -1,12 +1,16 @@
 import { LuUserRound } from "react-icons/lu";
 import { RiShoppingCartLine } from "react-icons/ri";
+import Logo from "../Logo/Logo";
 
 const Topbar = () => {
   return (
     <div className="bg-white shadow p-2 rounded-xl fixed top-5 left-32 right-32 z-999">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-8">
-          <h1>LOGO</h1>
+          {/* <h1>LOGO</h1> */}
+          <div>
+            <Logo />
+          </div>
           <ul className="flex items-center gap-8">
             <li>
               <a
